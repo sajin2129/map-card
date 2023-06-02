@@ -1,0 +1,143 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+
+}
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.section {
+   display: flex;
+   gap:30px;
+   width: 60%;
+   background-image:linear-gradient(#00000036,#0003), url("../image/tea.jpg"); 
+   background-color: #cccccc;
+   height: 600px; 
+   background-position: center; 
+   background-repeat: no-repeat;
+   background-size: contain; 
+   position: relative;
+   
+ }
+  /* .section:before { */
+   /* content: ""; */
+   /* background: rgba(220, 216, 216, 0.6); */
+   /* position: absolute; */
+   /* bottom: 0; */
+   /* top: 0; */
+   /* left: 0; */
+   /* right: 0; */
+/* }  */
+ .map{
+   height: 600px;
+   width:50% ;
+   position: relative;
+
+ }
+ iframe{
+   position: absolute;
+   right:0px ;
+   top:80px ;
+ }
+ .log{
+   padding: 20px;
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   /* align-items: center; */
+
+ }
+ h1{
+   font-weight: lighter;
+  
+ }
+ h2{
+   display: flex;
+   gap: 10px;
+  
+ }
+ .top{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+ .mail input{
+	 padding-left:20px;
+width: 100%;
+border: none;
+height:40px ;
+
+outline:0;
+ }
+ .meg input{
+   padding-left:20px ;
+   width: 100%;
+   border: none;
+   height:78px ;
+   outline:0;
+ }
+ 
+ .meg input[placeholder]{
+	  vertical-align:top;
+ }
+ 
+ .con{
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+ }
+
+ }
+ h6{
+   /* font-size: 20px; */
+  
+   color: gray;
+   position: relative;
+ }
+ .login{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+ .nampho{
+   display: flex;
+   gap: 10px;
+  
+  
+ }
+ .nampho input{
+	  padding-left:20px;
+   width: 50%;
+   border: none;
+   height: 40px;
+  
+   outline:0;
+
+ }
+ .btnd{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+ }
+ .fa-envelope{
+	color:gray;
+    font-weight:bold;	
+	font-size:32px;
+ }
+ .btnd a{
+   z-index: 2;
+   position: relative;
+   text-decoration: none;
+   background-color: blue;
+   padding: 6px 18px;
+   border-radius: 4px;
+   color: white;
+ }
